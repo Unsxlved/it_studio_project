@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+              background-image: url('https://wallpapercave.com/wp/wp4460931.jpg');
+            }
+            </style>
+        <title>
+           A Tale...
+        </title>
+         
+        <style>
+            .header {
+                background-color: rgb(0, 0, 0);
+                padding: 10px;
+                text-align: center;
+            }
+        </style>
+    </head>
+     
+    <body>
+        <div class = "header">
+            <h2 style = "color:white; font-family:Fantasy; font-size:175%">
+             <b> A Medieval Tale </b>
+            </h2>
+        </div>
+        <br>
+         
+        <center style="font-size:150%;  font-family:Fantasy; color: white;">
+           <b> Text</b>
+        </center>
+       
+       <h2>
+
+
+       </h2>
+       
+       <style>
+            img {
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            </style>
+        <a href="newpage1.html">
+        <img src="https://c4.wallpaperflare.com/wallpaper/705/1010/460/mountains-weapons-fire-dragon-wallpaper-preview.jpg" alt="dragon thing" style="width: 60%;">
+        </a>
+        <center style="font-size:125%;  font-family:Cursive; color: white;">
+            <b>Text </b>
+        </center>
+    </body>
+</html>
