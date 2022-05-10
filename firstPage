@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+              background-image: url('background1.jpeg');
+            }
+            </style>
+        <title>
+           A Tale...
+        </title>
+         
+        <style>
+            .header {
+                background-color: rgb(214, 217, 168);
+                padding: 10px;
+                text-align: center;
+            }
+        </style>
+    </head>
+     
+    <body>
+        <div class = "header">
+            <h2 style = "color:white; font-family:Fantasy; font-size:200%">
+             <b> A Medieval Tale </b>
+            </h2>
+        </div>
+        <br>
+         
+        <center style="font-size:150%;  font-family:Fantasy;">
+           <b> Choose your path on a journey to purloin the throne of King Earl and rule over the lands
+            of Kingdom Newcairn! </b>
+        </center>
+       
+       <h2>
+
+
+       </h2>
+       
+       <style>
+            img {
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            </style>
+        <a href="newpage1.html">
+        <img src="dragonn.jpeg" alt="dragon thing" style="width: 60%;">
+        </a>
+        <center style="font-size:125%;  font-family:Cursive;">
+            <b>The path of a warrior and dare to battle the castles greatest fealty </b>
+        </center>
+            
+          <h1>
+  
+
+
+
+          </h1>
+          
+        
+        <img src="forest.jpeg" alt="dragon thing" style="width: 60%;">
+        <center style="font-size:125%; font-family:Cursive;">
+            <b>The path of patience and virtue by taking passage through a quiet yet mysterious forest to destine
+            your way to the castles back gates </b>
+        </center>
+    </body>
+</html>
