@@ -6,7 +6,7 @@
 <head>
         <style>
             body {
-              background-image: url('https://previews.123rf.com/images/andreykuzmin/andreykuzmin1811/andreykuzmin181100055/112412046-medieval-nautical-reasure-map-background.jpg');
+              background-image: url('https://wallpaperaccess.com/full/2182.jpg');
             }
             </style>
         <title>
@@ -19,19 +19,37 @@
 
 
     </head>
-     
+    
+    <style>
+        div {
+            background-color: rgb(122, 164, 209);
+            opacity: 0.85;
+        }
+    </style>
+
+
     <body>
         <div class = "header">
             <center style = "color:rgb(150, 75, 0); font-family:Fantasy; font-size:305%">
              <b> A Medieval Tale </b>
             </center>
         </div>
+       
         <br>
-         
-        <center style="font-size:165%;  font-family:Fantasy;">
+       
+        <style>
+            h1 {
+                opacity: 0.85;
+            }
+        </style>
+
+
+        <h1>
+        <center style="font-size:90%;  font-family:Fantasy; color: white;">
            <b> Choose your path on a journey to purloin the throne of King Earl and rule over the lands
             of Kingdom Newcairn by clicking on one of two images below, and see for what you are desitned.</b>
         </center>
+        </h1>
        
        <h2>
 
@@ -46,9 +64,10 @@
             }
             </style>
         <a href="newpage1.html">
-        <img src="https://wallpaperaccess.com/full/791862.jpg" alt="dragon thing" style="width: 60%;">
+        ?d
+            <img src="https://wallpaperaccess.com/full/791862.jpg" alt="dragon thing" style="width: 60%;">
         </a>
-        <center style="font-size:140%;  font-family:Cursive;">
+        <center style="font-size:140%;  font-family:Cursive; color: rgb(255, 255, 255); background-color: black;">
             <b>The path of a warrior and dare to battle the castles greatest fealty </b>
         </center>
             
@@ -59,10 +78,10 @@
 
           </h1>
           
-        <a href="facebook.com">
+        <a href="image1page1.html">
         <img src="https://cdn1.epicgames.com/ue/product/Screenshot/PFinalScreenshot14-1920x1080-fdc51cc1bea38243018528c04544aa5f.jpg?resize=1&w=1920" alt="dragon thing" style="width: 60%;">
         </a>
-        <center style="font-size:140%; font-family:Cursive;">
+        <center style="font-size:140%; font-family:Cursive; color: white; background-color: black;">
         
             <b>The path of patience and virtue by taking passage through a quiet yet mysterious forest to destine
             your way to the castles back gates </b>
