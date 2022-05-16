@@ -28,7 +28,7 @@
         <br>
          
         <center style="font-size:150%;  font-family:Fantasy; color: white;">
-           <b> You come accross an elder titan and it faces you as it blocks your path...</b>
+           <b> You come accross an Elder Titan and it faces you as it blocks your path...</b>
         </center>
        
        <h2>
@@ -46,7 +46,89 @@
 
         <img src="https://www.teahub.io/photos/full/209-2097244_living-tree-man-axe-forest-fantasy-creature-fantasy.jpg" alt="dragon thing" style="width: 60%;">
         <center style="font-size:125%;  font-family:Cursive; color: white;">
-            <b>Text </b>
+            <p> The Elder approches you and explains in a calm brass voice, "I seek only knowledge, not conflict. I shall let you travel through if you can anwser my simple question. If you fail, you shall die. "  </p>
         </center>
+    
+
+    <div class="challenge">
+     <pre style="color: white; background-color: rgb(5, 72, 18);">
+         
+         <code>
+            import java.util.Scanner;
+            public class MyClass {
+                public static void main(String args[]) {
+                        
+                    Scanner scnr = new Scanner(System.in);
+                    String name;
+                    int age;
+                    double height;
+
+                    System.out.println("Enter your name:");
+                    name = scnr.next();
+                    System.out.println("Enter your age:");
+                    age = scnr.nextInt();
+                    System.out.println("Enter your height in meters:");
+                    height = scnr.nextDouble();
+                    System.out.println();
+
+                    System.out.printf("Hello %s, I see that you are %d years old and %.2f meters tall.", name, age, height);
+                }
+            }
+     </code>
+     
+ </pre>
+    </div>
+
+    <div class="userInput" style="background-color: rgb(11, 125, 49);">
+    <b>
+        The user inputs the following:
+    </b>
+    <pre>
+        James
+        23
+        1.85
+    </pre>
+    <b>
+        What is the output of the printf() function?
+    </b>
+    </div>
+   
+     <style>
+         .answers button {
+  background-color: #04AA6D; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+.answers button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.answers:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.answers button:hover {
+  background-color: #3e8e41;
+}
+     </style>
+
+<div class="answers">
+    <a href="image1path1.html">
+    <button>A: James 23 1.85</button>
+    </a>
+    <button>B: Hello James, I see that you are 23 years old and 1.85 meters tall.</button>
+    <button> C: Hello James, I see that you are 1.85 meters tall and 23 yeard old.</button>
+    <button> D: Hello James, I see that you are 25 years old and 1.85 meters tall.</button>
+  </div>
+
+
     </body>
 </html>
