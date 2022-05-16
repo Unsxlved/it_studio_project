@@ -21,8 +21,8 @@
     </head>
     
     <style>
-        div {
-            background-color: rgb(122, 164, 209);
+        .img-container {
+            background-color: rgba(4, 76, 152, 0.959);
             opacity: 1;
         }
     </style>
@@ -36,6 +36,7 @@
         </div>
        
         <br>
+        
        
         <style>
             h1 {
@@ -43,18 +44,17 @@
             }
         </style>
 
-
+        <div>
         <h1>
         <center style="font-size:90%;  font-family:Fantasy; color: white;">
            <b> Choose your path on a journey to purloin the throne of King Earl and rule over the lands
             of Kingdom Newcairn by clicking on one of two images below, and see for what you are desitned.</b>
         </center>
         </h1>
+       </div>
+
        
-       <h2>
-
-
-       </h2>
+       
        <head>
         <style>
         * {
@@ -64,7 +64,8 @@
         .img-container {
           float: left;
           width: 50%;
-          padding: 5px;
+          padding: 5px 5px 5px 5px;
+          transition: transform .5s;
         }
         
         .clearfix::after {
@@ -72,6 +73,15 @@
           clear: both;
           display: table;
         }
+
+    
+
+    .img-container:hover
+    {
+        -ms-transform: scale(1.1, 1.1);
+        -webkit-transform: scale(1.1, 1.1);
+        transform: scale(1.1, 1.1);
+    }
         </style>
         </head>
 
@@ -79,21 +89,23 @@
             <div class="clearfix">
               <div class="img-container">
               <img src="https://wallpaperaccess.com/full/791862.jpg" alt="Italy" style="width:100%">
-              </a>
-              <center style="font-size:140%;  font-family:Cursive; color: white; background-color: black;">
+              <center style="font-size:140%;  font-family:Cursive; color: white; background-color: black; width: 100%;">
                 <b>The path of a warrior and dare to battle the castles greatest fealty and bla bla bla i just want to fill this in with text </b>
             </center>
+            </a>
+              
               </div>
             
               <a href="image2page1.html">
               <div class="img-container">
               <img src="https://cdn.wallpapersafari.com/81/11/VPovuQ.jpg" alt="Forest" style="width:100%">
-              </a>
-              <center style="font-size:140%; font-family:Cursive; color: white; background-color: black;">
+              <center style="font-size:140%; font-family:Cursive; color: white; background-color: black; width: 100%;">
 
                 <b>The path of patience and virtue by taking passage through a quiet yet mysterious forest to destine
                 your way to the castles back gates </b>
             </center>
+            </a>
+              
               </div>
 
     </body>
