@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+              background-image: url('https://wallpapercave.com/wp/wp4460931.jpg');
+            }
+            </style>
+        <title>
+           A Tale...
+        </title>
+         
+        <style>
+            .header {
+                background-color: rgb(0, 0, 0);
+                padding: 10px;
+                text-align: center;
+            }
+        </style>
+    </head>
+     
+    <body>
+        <div class = "header">
+            <h2 style = "color:white; font-family:Fantasy; font-size:175%">
+             <b> A Medieval Tale </b>
+            </h2>
+        </div>
+        <br>
+         
+        <center style="font-size:150%;  font-family:Fantasy; color: white;">
+           <b> With a swift movement you plundge your weapon into the dragons heart. 
+               With no one in your way you storm through to the throne room, the king waiting patiently, sword in hand ready to fight for power over the kingdom. </b>
+        </center>
+       
+       
+       
+       <style>
+            img {
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            </style>
+        
+        <img src="https://c4.wallpaperflare.com/wallpaper/705/1010/460/mountains-weapons-fire-dragon-wallpaper-preview.jpg" alt="dragon thing" style="width: 60%;">
+        
+        <center style="font-size:125%;  font-family:Cursive; color: white;">
+            <p>you both charge at each other screaming your war cries. 
+                while the king lands a hit on your armour, you return the same kindness to him.
+             in a final stand you both go for finishing blows. </p>
+        </center>
+
+        <div class="challenge">
+            <pre style="color: white; background-color: rgb(59, 11, 172);">
+                
+                <code>
+                    import java.util.Scanner;
+                    public class MyClass {
+                        public static void main(String args[]) {
+                                
+                            Scanner scnr = new Scanner(System.in);
+                            String sentence;
+                            char letter;
+                            char letterLowerCase;
+                            int counter = 0;
+                            int i;
+                            System.out.println("Enter a letter you would like to count followed by a sentence");
+                            letter = scnr.next().charAt(0);
+                            letterLowerCase = Character.toLowerCase(letter);
+                            sentence = scnr.nextLine().toLowerCase();
+                            
+                            for (i = 0; i < sentence.length(); ++i) {
+                                if (sentence.charAt(i) == letterLowerCase) {
+                                    ++counter;
+                                }
+                            }
+                            System.out.println("The number of times " + letter + " appears in the sentence is " + counter + " times.");
+                       }
+                     }
+            </code>
+            
+        </pre>
+           </div>
+       
+           <div class="userInput" style="background-color: rgb(103, 166, 238);">
+           <b>
+               The user inputs the following:
+           </b>
+           <pre>
+               g 
+               Gather your friends and get a spicy burger now for only $4.99. 
+           </pre>
+           <b>
+               What is the final output of the print() function?
+           </b>
+           </div>
+          
+            <style>
+                .answers button {
+         background-color: #0dbeef; /* Green background */
+         border: 1px solid rgb(0, 27, 162); /* Green border */
+         color: white; /* White text */
+         padding: 10px 24px; /* Some padding */
+         cursor: pointer; /* Pointer/hand icon */
+         float: left; /* Float the buttons side by side */
+       }
+       
+       .answers button:not(:last-child) {
+         border-right: none; /* Prevent double borders */
+       }
+       
+       /* Clear floats (clearfix hack) */
+       .answers:after {
+         content: "";
+         clear: both;
+         display: table;
+       }
+       
+       /* Add a background color on hover */
+       .answers button:hover {
+         background-color: #0a51b4;
+       }
+            </style>
+       
+       <div class="answers">
+           <a href="image1path1.html">
+           <button>A: The number of times g appears in the sentence is 3 times.</button>
+           </a>
+           <button>B: 2 times</button>
+           <button> C: The number of times g appears in the sentence is 5 times.</button>
+           <button> D: The number of times g appears in the sentence is 2 times.</button>
+         </div>
+
+
+    </body>
+</html>
