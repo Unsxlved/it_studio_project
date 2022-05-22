@@ -63,34 +63,35 @@
 }
 .challenge-path1{
     color: white; 
-    background-color: rgb(59, 11, 172);
+    background-color: rgb(18, 57, 93);
 }
 
 .userInput-path1{
-    background-color: rgb(103, 166, 238);
+    color: white;
+    background-color: rgb(29, 92, 150);
 }
 
 .answers-path1 button {
-    background-color: #0dbeef; /* Green background */
-    border: 1px solid rgb(0, 27, 162); /* Green border */
-    color: white; /* White text */
-    padding: 10px 24px; /* Some padding */
-    cursor: pointer; /* Pointer/hand icon */
-    float: left; /* Float the buttons side by side */
+    background-color: #0dbeef; 
+    border: 1px solid rgb(0, 27, 162); 
+    color: white; 
+    padding: 10px 24px; 
+    cursor: pointer; 
+    float: left; 
   }
   
   .answers-path1 button:not(:last-child) {
-    border-right: none; /* Prevent double borders */
+    border-right: none; 
   }
   
-  /* Clear floats (clearfix hack) */
+  
   .answers-path1:after {
     content: "";
     clear: both;
     display: table;
   }
   
-  /* Add a background color on hover */
+  
   .answers-path1 button:hover {
     background-color: #0a51b4;
   }
@@ -102,29 +103,30 @@
 
   .userInput-path2 {
     background-color: rgb(11, 125, 49);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
   .answers-path2 button {
-    background-color: #04AA6D; /* Green background */
-    border: 1px solid green; /* Green border */
-    color: white; /* White text */
-    padding: 10px 24px; /* Some padding */
-    cursor: pointer; /* Pointer/hand icon */
-    float: left; /* Float the buttons side by side */
+    background-color: #04AA6D; 
+    border: 1px solid green; 
+    color: white; 
+    padding: 10px 24px; 
+    cursor: pointer; 
+    float: left; 
   }
   
   .answers-path2 button:not(:last-child) {
-    border-right: none; /* Prevent double borders */
+    border-right: none; 
   }
   
-  /* Clear floats (clearfix hack) */
+  
   .answers-path2:after {
     content: "";
     clear: both;
     display: table;
   }
   
-  /* Add a background color on hover */
+  
   .answers-path2 button:hover {
     background-color: #3e8e41;
   }
