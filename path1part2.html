@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="styles_sheet.css">
+    </head>
+    <head>
         <style>
             body {
               background-image: url('https://wallpapercave.com/wp/wp4460931.jpg');
@@ -10,28 +13,23 @@
            A Tale...
         </title>
          
-        <style>
-            .header {
-                background-color: rgb(0, 0, 0);
-                padding: 10px;
-                text-align: center;
-            }
-        </style>
+        
     </head>
      
     <body>
         <div class = "header">
-            <h2 style = "color:white; font-family:Fantasy; font-size:175%">
+            <h2>
              <b> A Medieval Tale </b>
             </h2>
         </div>
         <br>
          
-        <center style="font-size:150%;  font-family:Fantasy; color: white;">
+        <div class = "path-text-top">
+        <center>
            <b> With a swift movement you plundge your weapon into the dragons heart. 
                With no one in your way you storm through to the throne room, the king waiting patiently, sword in hand ready to fight for power over the kingdom. </b>
         </center>
-       
+       </div>
        
        
        <style>
@@ -44,14 +42,16 @@
         
         <img src="https://c4.wallpaperflare.com/wallpaper/705/1010/460/mountains-weapons-fire-dragon-wallpaper-preview.jpg" alt="dragon thing" style="width: 60%;">
         
-        <center style="font-size:125%;  font-family:Cursive; color: white;">
+        <div class="path-text-bottom">
+        <center>
             <p>you both charge at each other screaming your war cries. 
                 while the king lands a hit on your armour, you return the same kindness to him.
              in a final stand you both go for finishing blows. </p>
         </center>
+        </div>
 
-        <div class="challenge">
-            <pre style="color: white; background-color: rgb(59, 11, 172);">
+        <div class="challenge-path1">
+            <pre>
                 
                 <code>
                     import java.util.Scanner;
@@ -82,7 +82,7 @@
         </pre>
            </div>
        
-           <div class="userInput" style="background-color: rgb(103, 166, 238);">
+           <div class="userInput-path1">
            <b>
                The user inputs the following:
            </b>
@@ -95,34 +95,8 @@
            </b>
            </div>
           
-            <style>
-                .answers button {
-         background-color: #0dbeef; /* Green background */
-         border: 1px solid rgb(0, 27, 162); /* Green border */
-         color: white; /* White text */
-         padding: 10px 24px; /* Some padding */
-         cursor: pointer; /* Pointer/hand icon */
-         float: left; /* Float the buttons side by side */
-       }
        
-       .answers button:not(:last-child) {
-         border-right: none; /* Prevent double borders */
-       }
-       
-       /* Clear floats (clearfix hack) */
-       .answers:after {
-         content: "";
-         clear: both;
-         display: table;
-       }
-       
-       /* Add a background color on hover */
-       .answers button:hover {
-         background-color: #0a51b4;
-       }
-            </style>
-       
-       <div class="answers">
+       <div class="answers-path1">
            <a href="image1path1.html">
            <button>A: The number of times g appears in the sentence is 3 times.</button>
            </a>
